@@ -6,5 +6,5 @@ Controlled with a cheap rotary encoder with center push button.
 
 > RGBDigitIRRemote
 
-Controlled with an IR remote controller. Software runs on Arduino hardware.
+Controlled with an IR remote controller.
 TO BE ADDED YET
