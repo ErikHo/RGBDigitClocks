@@ -2,7 +2,7 @@
 
 :License: Public Domain
 
-= Project: {Color Clock based on RGBDigits}
+= Project: Color Clock based on RGBDigits
 
 A clock with 4 or 6 RGBDigits (7 segment displays with NeoPixel LED's,
 www.rgbdigit.com). Uses my RGBDigitV2 class (github erikho/RGBDigitV2) as
@@ -51,8 +51,9 @@ This sofware is free software
 === BOM
 
 |===
-| ID | Part name         | Part number                    | Quantity
-| R1 | rotary encoder    | adafruit PEC11-4215F-S24 or eqv| 1
-| A1 | Arduino Nano V3   | A000005                        | 1
-| Z1 | Real Time Clock   | DS3231   ZS - 042              | 1
+| ID | Part name         | Part number                    | Quantity  
+| R1 | rotary encoder    | adafruit PEC11-4215F-S24 or eqv| 1  
+| A1 | Arduino Nano V3   | A000005                        | 1  
+| Z1 | Real Time Clock   | DS3231   ZS - 042              | 1  
+| C1 | 100 muF Cap       |                                |  
 |===
