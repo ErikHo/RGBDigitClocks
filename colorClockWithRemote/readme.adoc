@@ -2,7 +2,7 @@
 
 :License: Public Domain
 
-= Project: {Color Clock based on RGBDigits}
+= Project: Color Clock based on RGBDigits
 
 A clock with 4 or 6 RGBDigits (7 segment displays with NeoPixel LED's,
 www.rgbdigit.com). Uses my RGBDigitV2 class (github erikho/RGBDigitV2) as
