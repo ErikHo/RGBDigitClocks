@@ -57,5 +57,5 @@ This sofware is free software
 | R1 | rotary encoder    | adafruit PEC11-4215F-S24 or eqv| 1  
 | A1 | Arduino Nano V3   | A000005                        | 1  
 | Z1 | Real Time Clock   | DS3231   ZS - 042              | 1  
-| C1 | 100 muF Cap       |                                |  
+| C1 | 100 muF Cap       |                                | 1
 |===
