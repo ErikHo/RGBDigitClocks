@@ -1,0 +1,56 @@
+:Author: Erik Homburg 2017
+
+:License: Public Domain
+
+= Project: {Color Clock based on RGBDigits}
+
+A clock with 4 or 6 RGBDigits (7 segment displays with NeoPixel LED's,
+www.rgbdigit.com). Uses my RGBDigitV2 class (github erikho/RGBDigitV2) as
+interface to the hardware. The clock is controlled with an IR remote
+interface.
+The software is tested with 4 and 6 digits on an Arduino Uno.
+
+use of remote:
+up and down arrow    : change brightness
+left and right arrow : change between hh:mm and ss display
+star or A            : enter time set mode
+left and right arrow : change digit to modify 
+up and down arrow    : change digit value
+hashtag or cancel    : cancel edit mode, no change
+ok or select         : change time and leave edit mode
+
+Please check the actual I2C connector pins for your particular Arduino
+
+== Step 1: Installation
+use either the Arduino Create web editor the Arduino IDE
+
+== Step 2: Assemble the circuit
+Assemble the circuit following the diagram layout.png attached to the sketch
+
+== Step 3: Load the code
+Arduino Create web editor: just upload colorClockWithRemote.ino to your
+Arduino
+Arduino IDE: also install the required libraries as mentioned in
+colorClockWithSwitch.ino
+
+=== Folder structure
+
+....
+ colorClockWithSwitch                => Arduino sketch folder
+  ├── colorClockWithRemote.ino       => main Arduino file
+  ├── layout.png                     => the layout
+  └── ReadMe.adoc                    => this file
+....
+
+=== License
+This sofware is free software
+
+=== BOM
+
+|===
+| ID | Part name         | Part number                    | Quantity
+| A1 | Arduino Uno       |                                | 1
+| Z1 | Real Time Clock   | DS3231   ZS - 042              | 1
+| C1 | 100 muF cap       |                                | 1
+| R1 | HX1838 IR RECV    |                                | 1
+|===
