@@ -23,6 +23,8 @@ after 2 minutes without user action edit mode is left without change of time
 The layout suggest the use of an Arduino Nano. Power supply through the USB
 connector.
 
+Please check the actual I2C connector pins for your particular Arduino.  
+
 == Step 1: Installation
 use either the Arduino Create web editor the Arduino IDE
 
